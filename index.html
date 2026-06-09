@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Japesh Patel | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-inner">
+      <span class="logo">JP</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">&#9776;</button>
+    </div>
+    <ul class="mobile-menu" id="mobileMenu">
+      <li><a href="#about" onclick="closeMobile()">About</a></li>
+      <li><a href="#projects" onclick="closeMobile()">Projects</a></li>
+      <li><a href="#skills" onclick="closeMobile()">Skills</a></li>
+      <li><a href="#contact" onclick="closeMobile()">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-tag">Hello, I'm</p>
+      <h1 class="hero-name">Japesh Patel</h1>
+      <p class="hero-sub">B.Tech CE · 3rd Year &nbsp;|&nbsp; Diploma in IT</p>
+      <p class="hero-desc">I build clean, functional web & mobile applications. Passionate about coding, problem solving, and learning new technologies.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-avatar">
+      <div class="avatar-circle">JP</div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I am <strong>Japesh Patel</strong>, a Computer Engineering student currently in my 3rd year of B.Tech. I completed my Diploma in Information Technology, which gave me a strong foundation in programming and web development.</p>
+          <p>I enjoy building projects that solve real problems — from college management tools to full-stack web applications. I'm always looking to grow my skills and take on new challenges.</p>
+        </div>
+        <div class="about-cards">
+          <div class="info-card">
+            <span class="info-icon">🎓</span>
+            <div>
+              <p class="info-label">Education</p>
+              <p class="info-value">B.Tech CE — 3rd Year</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <span class="info-icon">📜</span>
+            <div>
+              <p class="info-label">Diploma</p>
+              <p class="info-value">Information Technology</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <span class="info-icon">💻</span>
+            <div>
+              <p class="info-label">Projects</p>
+              <p class="info-value">6+ Completed</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <span class="info-icon">📍</span>
+            <div>
+              <p class="info-label">Location</p>
+              <p class="info-value">Gujarat, India</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-sub">A collection of things I've built</p>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon" style="background:#dbeafe; color:#1d4ed8;">🛡️</div>
+            <div class="project-tags">
+              <span class="tag tag-blue">Frontend</span>
+              <span class="tag tag-green">Backend</span>
+            </div>
+          </div>
+          <h3 class="project-title">Phish Guard AI</h3>
+          <p class="project-desc">PhishGuard AI is an intelligent security solution that uses real-time behavioral analysis and machine learning to detect, block, and neutralize advanced phishing threats before they reach your inbox.</p>
+          <div class="project-tech">
+            <span class="tech">HTML</span><span class="tech">CSS</span><span class="tech">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon" style="background:#dbeafe; color:#1d4ed8;">🚚</div>
+            <div class="project-tags">
+              <span class="tag tag-blue">Frontend</span>
+              <span class="tag tag-green">Backend</span>
+            </div>
+          </div>
+          <h3 class="project-title">Food Delivery</h3>
+          <p class="project-desc">Foode Delivery is a seamless food delivery platform that connects you with your favorite local restaurants, offering real-time tracking and lightning-fast delivery straight to your doorstep.</p>
+          <div class="project-tech">
+            <span class="tech">HTML</span><span class="tech">CSS</span><span class="tech">JavaScript</span>
+          </div>
+        </div>
+        
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon" style="background:#dbeafe; color:#1d4ed8;">🌐</div>
+            <div class="project-tags">
+              <span class="tag tag-blue">Frontend</span>
+              <span class="tag tag-green">Responsive</span>
+            </div>
+          </div>
+          <h3 class="project-title">Personal Portfolio Website</h3>
+          <p class="project-desc">A responsive personal portfolio to showcase skills, projects, and contact info. Includes smooth scroll, animations, and mobile-friendly layout.</p>
+          <div class="project-tech">
+            <span class="tech">HTML</span><span class="tech">CSS</span><span class="tech">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon" style="background:#d1fae5; color:#065f46;">🛒</div>
+            <div class="project-tags">
+              <span class="tag tag-green">Full Stack</span>
+              <span class="tag tag-yellow">Database</span>
+            </div>
+          </div>
+          <h3 class="project-title">E-Commerce Website</h3>
+          <p class="project-desc">A full-stack shopping platform with product listing, cart, user login, and admin panel. Built as part of Diploma final year project.</p>
+          <div class="project-tech">
+            <span class="tech">PHP</span><span class="tech">MySQL</span><span class="tech">Bootstrap</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon" style="background:#ede9fe; color:#5b21b6;">📱</div>
+            <div class="project-tags">
+              <span class="tag tag-purple">Android</span>
+              <span class="tag tag-blue">Mobile</span>
+            </div>
+          </div>
+          <h3 class="project-title">Student Result App</h3>
+          <p class="project-desc">Android app that allows students to check exam results, view attendance, and get notifications from college. Built during 2nd year B.Tech.</p>
+          <div class="project-tech">
+            <span class="tech">Java</span><span class="tech">Android Studio</span><span class="tech">SQLite</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon" style="background:#fee2e2; color:#991b1b;">🧠</div>
+            <div class="project-tags">
+              <span class="tag tag-red">Web App</span>
+              <span class="tag tag-green">Python</span>
+            </div>
+          </div>
+          <h3 class="project-title">Quiz Management System</h3>
+          <p class="project-desc">Web-based quiz platform with timer, score tracking, and admin dashboard for teachers to add/manage questions and students.</p>
+          <div class="project-tech">
+            <span class="tech">Python</span><span class="tech">Django</span><span class="tech">SQLite</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon" style="background:#dcfce7; color:#166534;">📊</div>
+            <div class="project-tags">
+              <span class="tag tag-green">MERN Stack</span>
+              <span class="tag tag-blue">React</span>
+            </div>
+          </div>
+          <h3 class="project-title">Expense Tracker</h3>
+          <p class="project-desc">A MERN stack web app to track daily income and expenses with charts, category filters, and monthly summaries. 3rd year mini project.</p>
+          <div class="project-tech">
+            <span class="tech">React</span><span class="tech">Node.js</span><span class="tech">MongoDB</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon" style="background:#fce7f3; color:#9d174d;">🔒</div>
+            <div class="project-tags">
+              <span class="tag tag-pink">College</span>
+              <span class="tag tag-yellow">PHP</span>
+            </div>
+          </div>
+          <h3 class="project-title">College Gate Pass System</h3>
+          <p class="project-desc">Digital gate pass request system for college students. Students apply online; HOD approves/rejects with email notification support.</p>
+          <div class="project-tech">
+            <span class="tech">PHP</span><span class="tech">MySQL</span><span class="tech">Bootstrap</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <p class="section-sub">Technologies I work with</p>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4 class="skill-group-title">Languages</h4>
+          <div class="skill-list">
+            <span class="skill-pill">C</span>
+            <span class="skill-pill">C++</span>
+            <span class="skill-pill">Java</span>
+            <span class="skill-pill">Python</span>
+            <span class="skill-pill">PHP</span>
+            <span class="skill-pill">JavaScript</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4 class="skill-group-title">Web Development</h4>
+          <div class="skill-list">
+            <span class="skill-pill">HTML5</span>
+            <span class="skill-pill">CSS3</span>
+            <span class="skill-pill">Bootstrap</span>
+            <span class="skill-pill">React</span>
+            <span class="skill-pill">Node.js</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4 class="skill-group-title">Database</h4>
+          <div class="skill-list">
+            <span class="skill-pill">MySQL</span>
+            <span class="skill-pill">MongoDB</span>
+            <span class="skill-pill">SQLite</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4 class="skill-group-title">Tools</h4>
+          <div class="skill-list">
+            <span class="skill-pill">GitHub</span>
+            <span class="skill-pill">VS Code</span>
+            <span class="skill-pill">Android Studio</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <p class="section-sub">Feel free to reach out for projects or collaboration</p>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="contact-icon">📧</span>
+            <div>
+              <p class="contact-label">Email</p>
+              <p class="contact-value">pateljapesh0@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📱</span>
+            <div>
+              <p class="contact-label">Phone</p>
+              <p class="contact-value">+91 879265986315</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">🐙</span>
+            <div>
+              <p class="contact-label">GitHub</p>
+              <p class="contact-value">github.com/japeshpatel</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">💼</span>
+            <div>
+              <p class="contact-label">LinkedIn</p>
+              <p class="contact-value">linkedin.com/in/japeshpatel</p>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" placeholder="Enter your name" required />
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required />
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea rows="5" placeholder="Write your message..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%">Send Message</button>
+          <p class="form-success" id="formSuccess">✅ Message sent successfully!</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2024 Japesh Patel. Built with HTML, CSS & JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
